@@ -32,4 +32,4 @@ If you want to contact me, you can reach me through below social handles.
 
 </div>
 
-<a href="https://www.buymeacoffee.com/anishhh20" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 200px !important;" ></a>
+<a href="https://www.buymeacoffee.com/anishhh20" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 180px !important;" ></a>
