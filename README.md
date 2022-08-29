@@ -9,7 +9,7 @@ Using simple and basic HTML, CSS, and JavaScript, I created a Responsive Portfol
 [<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>]<br><br>
 Not 100% completed yet, but yes, I can say that I built it, whatever it is🙂.
 N specially check my [Photography page❤️](https://anishhh20.github.io/anish-portfolio/photos.html)<br>
-For more details, Check out my [Resume📃](https://github.com/anishhh20/anish-portfolio/blob/17ded6e7264733d31cfc0c1d69dc609424d789b7/assests/resume.pdf)..
+For more details, Check out my [Resume📃](https://github.com/anishhh20/anish-portfolio/blob/7d99c465761c64c899a03c83e1ba22d92f821d26/assests/resume.pdf)..
 <br />
 ## 📌Sneak Peek 😁👇🏼
 
