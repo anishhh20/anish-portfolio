@@ -1,0 +1,148 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/b9affcfa7b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>
+            Anish Teli | Portfolio
+        </title>
+    </head>
+
+    <body >
+        
+        <div class="ph">
+
+
+            <!-- Loading Screen  -->
+            <div class="loading">
+                <img draggable="false" src="images/load.gif" alt="Loading...">
+            </div>
+
+
+            <!-- Progress on Load -->
+            <div class="progress" id="PreLoaderBar">
+                <div class="indeterminate"></div>
+            </div>
+            
+
+            <!-- Progress Bar on Scroll -->
+            <div id="progress-bar"></div>
+
+
+            <!-- Navbar -->
+            <nav>
+                <div class="logo" id="logo"><a href="index.html">PORTFO<span id="multi">LIO</span></a></div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            
+                <ul class="menu">
+                    <li><a href="index.html">Go Home!</a></li>   
+                </ul>
+                </div>
+            </nav>
+        
+
+            <!-- Caption -->
+            <div class="photo">
+                
+                <h1>Besides being a Programmer and Student, I also have a hobby of Photography📸. Not a professional one, but yes,😁
+                follow my PASSION for it. Here are some of the best Photographs that I took.❤️ <br><br>
+                <p style="font-size: 15px;">NOTE: This images are not in GOOD Quality.⚠️ So, Don't Judge my Photography skill by this (JK).😂</p>
+
+                <!-- Copy Link Button -->
+                <button class="clipboard" onclick="copyToClipboard()" title="Copy📄 Page Link" id="cb"><i
+                        class="fa-solid fa-copy"></i></button>
+                <p id="demo" class="hide">Link Copied !✅</p>
+
+                </div>
+            </h1>
+                
+
+            <!-- Background Particles
+            <div id="particles-js" style="height:500%"></div> -->
+
+
+            <!-- Photo Grid -->
+            <div class="row1">
+
+                <div class="column">
+                    <img src="images/1.5.jpg" class="image"><div class="txt">Lonavala</div>
+                    <img src="images/1.jpg" class="image"><div class="txt">Dapoli❤️</div>
+                    <img src="images/6.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/10.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/14.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/18.jpg" style="width:100%"><div class="txt">Nashik</div>
+                    <img src="images/22.jpg" style="width:100%"><div class="txt">Phaltan🤍</div>
+                    
+                </div>
+
+                <div class="column">
+                    <img src="images/3.5.jpg" class="image"><div class="txt">Nashik</div>
+                    <img src="images/3.jpg" style="width:100%"><div class="txt">Nephophile🌤️</div>
+                    <img src="images/7.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/11.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/15.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/19.jpg" style="width:100%"><div class="txt">Illusion😵‍💫</div>
+                    <img src="images/23.jpg" style="width:100%"><div class="txt">Mumbai-Pune🖤</div>
+                    
+                </div>
+
+                <div class="column">
+                    <img src="images/4.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/8.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/12.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/16.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/20.jpg" style="width:100%"><div class="txt">Nashik</div>
+                    <img src="images/24.jpg" style="width:100%">
+                    <img src="images/26.jpg" class="image" ><div class="txt"></div>
+                    <img src="images/29.jpg" style="width:100%"><div class="txt">Phaltan🤍</div>
+                    
+                </div>
+
+                <div class="column">
+                    <img src="images/5.jpg" style="width:100%" ><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/9.jpg" style="width:100%"><div class="txt">Rajgad Fort🧡</div>
+                    <img src="images/13.jpg" style="width:100%"><div class="txt">Tamhini Ghat</div>
+                    <img src="images/17.jpg" style="width:100%"><div class="txt">Lonavala</div>
+                    <img src="images/21.jpg" style="width:100%"><div class="txt">Pune</div>
+                    <img src="images/25.jpg" style="width:100%">
+                    <img src="images/18.5.jpg" style="width:100%">
+                </div>
+
+
+                <!-- Top Button -->
+                <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
+            
+
+            <style>                    
+                * {
+                    box-sizing: border-box;
+                }
+                .clipboard{
+                    top:-415;
+                    right: 55px;
+                    font-size :20;
+                }
+                #demo{
+                    top:185;
+                    right: 30px;
+                    font-size :13px;
+                }
+            </style>
+
+
+            <!-- Script Link -->
+            <script src="./assests/js/script.js"></script>
+
+
+            <!-- Particle's links -->
+            <script src="./assests/js/particles.js"></script>
+            <script src="./assests/js/app.js"></script>
+        </div>
+    </body>
+</html>
