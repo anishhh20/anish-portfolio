@@ -356,9 +356,9 @@ nav .logo {
     }
     #cb {
         position: fixed;
-        bottom: 80px;
-        right: 170px;
-        font-size: 28px;
+        bottom: 40px;
+        right: 0px;
+        font-size: 20px;
         border: none;
         background-color: transparent;
         color: white;
@@ -369,6 +369,7 @@ nav .logo {
         transition: 1s;
         bottom: 165px;
         right: 0 !important;
+        font-size: 15px;
     }
 }
 
@@ -655,7 +656,6 @@ a:hover {
 .row {
     padding: 40px 30px;
     background: rgb(14, 14, 14);
-    cursor: pointer;
     border-radius: 5px;
     transition: all .40s;
     color: whitesmoke;
@@ -1127,7 +1127,7 @@ footer p{
     position: relative;
     transform: translateY(80px);
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: all 1s ease;
 }
 .reveal.active {
     transform: translateY(0px);
@@ -1230,7 +1230,7 @@ footer p{
 
 /* ScrollBar Properties */
 body::-webkit-scrollbar {
-    width: 0.5em;
+    width: 0.3em;
     scrollbar: smooth;
 }
 body::-webkit-scrollbar-track {
@@ -1243,4 +1243,17 @@ body::-webkit-scrollbar-thumb {
 }
 ::-webkit-scrollbar-thumb:hover {
     background-image: var(--mix);
+}
+
+
+
+
+nav ul li.active {
+    background-color: #3b49df;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+nav ul li.active a {
+    color: #ffffff;
 }
