@@ -356,8 +356,8 @@ nav .logo {
     }
     #cb {
         position: fixed;
-        bottom: 40px;
-        right: 0px;
+        bottom: 75px;
+        right: 30px;
         font-size: 20px;
         border: none;
         background-color: transparent;
@@ -818,9 +818,9 @@ form .sbtn:hover {
 .clipboard {
     transition: .5s ease;
     position: fixed;
-    bottom: 40px;
-    right: 170px;
-    font-size: 28px;
+    bottom: 80px;
+    right: 35px;
+    font-size: 18px;
     border: none;
     background-color: transparent;
     color: white;
@@ -833,8 +833,8 @@ form .sbtn:hover {
 #demo {
     opacity: 0;
     transition: 1s;
-    bottom: 85px;
-    right: 120;
+    bottom: 115px;
+    right: 10px;
     position: fixed;
 }
 #demo.fade-in {
@@ -849,7 +849,7 @@ form .sbtn:hover {
 /* Top Button Properties */
 #myBtn {
     transition: .7s ease;
-    display: none;
+    /* display: none; */
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -1122,19 +1122,6 @@ footer p{
 }
 
 
-/* Animation on Scroll */
-.reveal{
-    position: relative;
-    transform: translateY(80px);
-    opacity: 0;
-    transition: all 1s ease;
-}
-.reveal.active {
-    transform: translateY(0px);
-    opacity: 1;
-}
-
-
 /* Glitch Effect on Text */
 .container {
     display: flex;
@@ -1248,7 +1235,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-nav ul li.active {
+/* nav ul li.active {
     background-color: #3b49df;
     border-radius: 30px;
     transition: 0.3s;
@@ -1256,4 +1243,4 @@ nav ul li.active {
 
 nav ul li.active a {
     color: #ffffff;
-}
+} */
