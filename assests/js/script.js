@@ -1,3 +1,6 @@
+// onscroll Animations
+AOS.init();
+
 //disable right click
 document.addEventListener('contextmenu', function(e){
     e.preventDefault();
@@ -15,17 +18,17 @@ window.addEventListener(
 );
 
 
-//Get the button
-var mybutton = document.getElementById("myBtn");
-// When scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
+// //Get the button
+// var mybutton = document.getElementById("myBtn");
+// // When scrolls down 20px from the top of the document, show the button
+// window.onscroll = function () { scrollFunction() };
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         mybutton.style.display = "block";
+//     } else {
+//         mybutton.style.display = "none";
+//     }
+// }
 
 
 // When clicks on the button, scroll to the top of the document
@@ -127,25 +130,6 @@ let processScroll = () => {
 document.addEventListener('scroll', processScroll);
 
 
-//Animation on Scroll
-window.addEventListener('scroll', reveal);
-function reveal() {
-    var reveals = document.querySelectorAll('.reveal');
-    for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 70;
-
-        if (revealtop < windowHeight - revealpoint) {
-            reveals[i].classList.add('active');
-        }
-        else{
-            reveals[i].classList.remove('active');
-        }
-    }
-}
-
-
 // Loading Screen
 function loader() {
     document.querySelector('.loading').classList.add('fade-out');
@@ -154,3 +138,31 @@ function fadeOut() {
     setInterval(loader, 500);
 }
 window.onload = fadeOut;
+
+
+
+
+
+
+
+
+
+
+// const sections = document.querySelectorAll("section");
+// const navLi = document.querySelectorAll("nav ul li");
+// window.onscroll = () => {
+//   var current = "";
+
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     if (pageYOffset >= sectionTop - 60) {
+//       current = section.getAttribute("id"); }
+//   });
+
+//   navLi.forEach((li) => {
+//     li.classList.remove("active");
+//     if (li.classList.contains(current)) {
+//       li.classList.add("active");
+//     }
+//   });
+// };
